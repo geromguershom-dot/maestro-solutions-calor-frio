@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  /* Palette — dualité Calor (chaud) & Frío (froid) */
+  --color-midnight: #0B1930;
+  --color-midnight-2: #122544;
+  --color-frost: #F5F8FA;
+  --color-slate: #1E2A3A;
+  --color-slate-soft: #4A5A6B;
+  --color-cyan: #22D3EE;
+  --color-cyan-dim: #0EA5C4;
+  --color-ember: #F97316;
+  --color-ember-dim: #EA660A;
+
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-frost);
+  color: var(--color-slate);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+/* Thermal divider — signature element: gradient bar marking section transitions */
+.thermal-divider {
+  height: 3px;
+  width: 100%;
+  background: linear-gradient(90deg, var(--color-ember) 0%, var(--color-midnight) 50%, var(--color-cyan) 100%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,5 @@
+Dépose ici tes fichiers vidéo (.mp4), avec les noms que tu veux.
+Exemple : installation-climatiseur-yaounde.mp4
+
+Ensuite, renvoie tout le projet (zip) à Claude, qui les reliera
+proprement dans src/data/content.js (titres, catégories, miniatures).
