@@ -10,7 +10,7 @@ export const brand = {
   logo: "/logo/maestro-solutions-logo.png",
   phone1: "677 33 14 26",
   phone2: "695 95 69 38",
-  whatsapp: "677331426", // format sans espaces pour le lien wa.me
+  whatsapp: "695956938", // format sans espaces pour le lien wa.me
   email: "salomon.fotso@yahoo.com",
   city: "Yaoundé, Cameroun",
 };
