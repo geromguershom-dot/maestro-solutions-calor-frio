@@ -1,4 +1,6 @@
-import { Link } from "react-router-dom";
+
+         
+               import { Link } from "react-router-dom";
 import { Clock, ShieldCheck, MessageSquare } from "lucide-react";
 
 const points = [
@@ -11,7 +13,16 @@ export default function ClosingCTA() {
   return (
     <section className="relative bg-[var(--color-midnight)] overflow-hidden">
       <div className="mx-auto max-w-7xl px-5 md:px-8 grid lg:grid-cols-2 gap-8 items-end">
-        <div className="py-16 md:py-20">
+        <div className="relative lg:hidden -mx-5 md:-mx-8 mb-2">
+          <img
+            src="/images/maintenance-climatiseur-tour-1.jpg"
+            alt="Technicien Maestro Solutions prêt à intervenir"
+            className="w-full h-56 object-cover object-top"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-midnight)] via-transparent to-transparent" />
+        </div>
+
+        <div className="py-8 lg:py-20">
           <p className="font-mono text-xs tracking-[0.2em] uppercase text-[var(--color-cyan)] mb-4">
             Besoin d'un expert ?
           </p>
@@ -42,7 +53,7 @@ export default function ClosingCTA() {
           </div>
         </div>
 
-        <div className="hidden lg:block relative h-full">
+        <div className="hidden lg:block relative h-full order-1 lg:order-2">
           <img
             src="/images/maintenance-climatiseur-tour-1.jpg"
             alt="Technicien Maestro Solutions prêt à intervenir"
