@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://maestro-solutions.vercel.app/sitemap.xml
+Sitemap: https://maestro-solutions-calor-frio-bxancs7lh.vercel.app/sitemap.xml
