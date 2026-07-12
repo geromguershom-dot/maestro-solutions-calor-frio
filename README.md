@@ -159,4 +159,5 @@ Suis les instructions ; le site sera en ligne en quelques minutes. Tu peux ensui
 
 Tous ces tokens sont dans `src/index.css` (`@theme`) si tu veux ajuster une teinte partout d'un coup.
 #   m a e s t r o - s o l u t i o n s - c a l o r - f r i o  
+ #   m a e s t r o - s o l u t i o n s - c a l o r - f r i o  
  
