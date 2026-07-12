@@ -1,6 +1,4 @@
-
-         
-               import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Clock, ShieldCheck, MessageSquare } from "lucide-react";
 
 const points = [
