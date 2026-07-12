@@ -48,7 +48,7 @@ export default function Navbar() {
             <Phone size={15} /> +237 {brand.phone1}
           </a>
           <a
-            href={`https://wa.me/237${brand.whatsapp}`}
+            href={`tel:+237${brand.phone1.replace(/\s/g, "")}`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 rounded-full border border-white/20 hover:border-[var(--color-cyan)] text-white/85 hover:text-[var(--color-cyan)] text-sm px-3.5 py-2 transition-colors"
